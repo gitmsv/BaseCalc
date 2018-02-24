@@ -23,7 +23,12 @@ public class Main {
 
         // Clean display Calc;
         clc.clearCalc();
-        System.out.println(clc.getValue()); // 0; getters new name;
+        System.out.println(clc.getValue()+"\n"); // 0; getters new name;
+
+        clc = new Calc();
+        clc.plusCacl(55);
+        System.out.println(clc); // hashcode;
+        System.out.println(clc.getValue()); // 55;
 
     }
 }
